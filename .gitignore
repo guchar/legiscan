@@ -1,0 +1,4 @@
+venv/bin/git-filter-repo
+venv/lib/python3.11/site-packages/__pycache__/
+venv/lib/python3.11/site-packages/git_filter_repo-*.dist-info/
+venv/lib/python3.11/site-packages/git_filter_repo.py
