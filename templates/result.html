@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>{{ summary }}</p>
+    <h2>Vote Visualization</h2>
+    <img
+      src="{{ url_for('static', filename='vote_visualization.png') }}"
+      alt="Vote Visualization"
+    />
+    <h2>Timeline</h2>
+    <img
+      src="{{ url_for('static', filename='timeline.png') }}"
+      alt="Timeline"
+    />
+  </body>
+</html>
